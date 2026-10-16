@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520" fill="none">
+  <title>배달서비스 공제 시스템 프로젝트</title>
+  <desc>배송 패키지와 서비스 연결 노드를 표현한 프로젝트 표지</desc>
+  <defs>
+    <linearGradient id="delivery-bg" x1="65" y1="0" x2="665" y2="538" gradientUnits="userSpaceOnUse"><stop stop-color="#DCE9F2"/><stop offset="1" stop-color="#A7C4DB"/></linearGradient>
+    <linearGradient id="delivery-top" x1="235" y1="158" x2="455" y2="246" gradientUnits="userSpaceOnUse"><stop stop-color="#4F8EBE"/><stop offset="1" stop-color="#235C8C"/></linearGradient>
+    <linearGradient id="delivery-left" x1="238" y1="217" x2="353" y2="387" gradientUnits="userSpaceOnUse"><stop stop-color="#244C75"/><stop offset="1" stop-color="#102D50"/></linearGradient>
+    <linearGradient id="delivery-right" x1="356" y1="260" x2="467" y2="355" gradientUnits="userSpaceOnUse"><stop stop-color="#356C9B"/><stop offset="1" stop-color="#17416D"/></linearGradient>
+    <pattern id="delivery-grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" stroke="#245581" stroke-opacity=".08"/></pattern>
+    <filter id="delivery-shadow" x="-50%" y="-50%" width="200%" height="220%"><feDropShadow dx="0" dy="15" stdDeviation="13" flood-color="#315775" flood-opacity=".23"/></filter>
+  </defs>
+  <path fill="url(#delivery-bg)" d="M0 0H720V520H0z"/>
+  <path fill="url(#delivery-grid)" d="M0 0H720V520H0z"/>
+  <path d="M-67 191L280-9L773 276L426 476L-67 191Z" stroke="#477DA8" stroke-opacity=".12" stroke-width="48"/>
+  <path d="M70 260L353 97L636 260L353 423L70 260Z" stroke="#2B6593" stroke-opacity=".15"/>
+  <path d="M115 286L353 148L591 286L353 423L115 286Z" stroke="#2B6593" stroke-opacity=".16" stroke-dasharray="3 7"/>
+  <ellipse cx="353" cy="387" rx="139" ry="30" fill="#517DA1" fill-opacity=".13"/>
+  <path d="M127 163L211 211M466 215L559 161M354 385V449M186 372L238 342M465 342L553 393" stroke="#316C9C" stroke-width="2"/>
+  <path d="M127 163L211 211M466 215L559 161M354 385V449M186 372L238 342M465 342L553 393" stroke="#A9D5F1" stroke-opacity=".5" stroke-width="5" stroke-dasharray="1 14"/>
+  <g filter="url(#delivery-shadow)">
+    <path d="M235 213L353 145L471 213L353 282L235 213Z" fill="url(#delivery-top)" stroke="#689CC4"/>
+    <path d="M235 213L353 282V391L235 323V213Z" fill="url(#delivery-left)" stroke="#224B72"/>
+    <path d="M353 282L471 213V323L353 391V282Z" fill="url(#delivery-right)" stroke="#2F6089"/>
+    <path d="M292 180L411 249L411 289L389 302V261L270 192L292 180Z" fill="#9EC6E1" fill-opacity=".84"/>
+    <path d="M248 222L353 283L458 222M353 283V376" stroke="#A7CEE8" stroke-opacity=".36"/>
+    <path d="M257 280L298 304V333L257 309V280Z" fill="#D2E6F3" fill-opacity=".86"/>
+    <path d="M265 294L287 307M265 302L280 311" stroke="#356184" stroke-width="2"/>
+    <path d="M421 309L447 294M421 318L447 303M421 327L439 317" stroke="#88B5D5" stroke-width="2"/>
+  </g>
+  <g transform="translate(126 148)">
+    <circle r="34" fill="#C8DCEB" stroke="#709AB9"/>
+    <circle r="24" fill="#E5EFF5"/>
+    <path d="M-9-7H9V9H-9zM-5-11H5V-7" stroke="#2B618B" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M-3 0H3" stroke="#2B618B" stroke-width="2.2"/>
+  </g>
+  <g transform="translate(572 150)">
+    <circle r="34" fill="#C8DCEB" stroke="#709AB9"/>
+    <circle r="24" fill="#E5EFF5"/>
+    <path d="M0-13C-7-13-12-8-12-1C-12 8 0 17 0 17S12 8 12-1C12-8 7-13 0-13Z" stroke="#2B618B" stroke-width="2.2"/>
+    <circle cy="-1" r="4" stroke="#2B618B" stroke-width="2"/>
+  </g>
+  <g transform="translate(170 382)">
+    <circle r="24" fill="#E0ECF4" stroke="#709AB9"/>
+    <path d="M-10 0L-3 7L11-8" stroke="#2B618B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(573 404)">
+    <circle r="24" fill="#E0ECF4" stroke="#709AB9"/>
+    <path d="M-11-5H3L9 1V7H-11V-5ZM3-5V1H9" stroke="#2B618B" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="-6" cy="8" r="3" fill="#2B618B"/><circle cx="6" cy="8" r="3" fill="#2B618B"/>
+  </g>
+  <circle cx="354" cy="455" r="6" fill="#376E99"/>
+  <circle cx="354" cy="455" r="14" stroke="#376E99" stroke-opacity=".25"/>
+  <path d="M76 81H119M76 90H102M577 74H626M601 83H626" stroke="#4C7B9E" stroke-opacity=".48" stroke-width="2"/>
+  <path d="M50 448L88 426M631 293L670 271" stroke="#467A9F" stroke-opacity=".3" stroke-width="3"/>
+</svg>

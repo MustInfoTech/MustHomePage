@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520" fill="none">
+  <title>택시 공제 시스템 프로젝트</title>
+  <desc>남색의 도로 연결망과 차량을 표현한 프로젝트 표지</desc>
+  <defs>
+    <linearGradient id="taxi-bg" x1="72" y1="0" x2="657" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#102A4C"/><stop offset="1" stop-color="#06162C"/></linearGradient>
+    <linearGradient id="taxi-road" x1="158" y1="155" x2="561" y2="435" gradientUnits="userSpaceOnUse"><stop stop-color="#244B73"/><stop offset="1" stop-color="#0E2747"/></linearGradient>
+    <linearGradient id="taxi-body" x1="291" y1="177" x2="462" y2="357" gradientUnits="userSpaceOnUse"><stop stop-color="#E5F1FA"/><stop offset=".5" stop-color="#A8CAE5"/><stop offset="1" stop-color="#5B91BF"/></linearGradient>
+    <linearGradient id="taxi-glass" x1="316" y1="197" x2="417" y2="285" gradientUnits="userSpaceOnUse"><stop stop-color="#17456D"/><stop offset="1" stop-color="#0B2444"/></linearGradient>
+    <radialGradient id="taxi-light" cx="0" cy="0" r="1" gradientTransform="translate(392 206) rotate(90) scale(280 324)" gradientUnits="userSpaceOnUse"><stop stop-color="#408CCC" stop-opacity=".23"/><stop offset="1" stop-color="#408CCC" stop-opacity="0"/></radialGradient>
+    <pattern id="taxi-grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" stroke="#719CC2" stroke-opacity=".1" stroke-width="1"/></pattern>
+    <filter id="taxi-shadow" x="-50%" y="-50%" width="200%" height="220%"><feDropShadow dx="0" dy="17" stdDeviation="18" flood-color="#000C1C" flood-opacity=".5"/></filter>
+  </defs>
+  <path fill="url(#taxi-bg)" d="M0 0H720V520H0z"/>
+  <path fill="url(#taxi-grid)" d="M0 0H720V520H0z"/>
+  <path fill="url(#taxi-light)" d="M0 0H720V520H0z"/>
+  <circle cx="366" cy="264" r="199" stroke="#6A9BC5" stroke-opacity=".1"/>
+  <circle cx="366" cy="264" r="160" stroke="#6A9BC5" stroke-opacity=".13" stroke-dasharray="3 11"/>
+  <path d="M-55 403L249 125L768 407" stroke="#456C91" stroke-opacity=".18" stroke-width="67"/>
+  <path d="M-55 403L249 125L768 407" stroke="url(#taxi-road)" stroke-width="63"/>
+  <path d="M-55 403L249 125L768 407" stroke="#9EBFD9" stroke-opacity=".43" stroke-width="2" stroke-dasharray="12 13"/>
+  <path d="M237 566L388 370L723 92" stroke="#41698F" stroke-opacity=".19" stroke-width="57"/>
+  <path d="M237 566L388 370L723 92" stroke="#142F50" stroke-width="53"/>
+  <path d="M237 566L388 370L723 92" stroke="#7BA4C7" stroke-opacity=".35" stroke-width="2" stroke-dasharray="12 13"/>
+  <path d="M93 154H175L225 204M533 341L580 292H652M142 421L194 372H271M451 141L493 97H598" stroke="#4F8BBE" stroke-opacity=".65" stroke-width="2"/>
+  <g fill="#77B9E8"><circle cx="93" cy="154" r="4"/><circle cx="652" cy="292" r="4"/><circle cx="142" cy="421" r="4"/><circle cx="598" cy="97" r="4"/></g>
+  <g stroke="#77B9E8" stroke-opacity=".35"><circle cx="93" cy="154" r="11"/><circle cx="652" cy="292" r="11"/><circle cx="598" cy="97" r="11"/></g>
+  <path d="M136 76H179M136 85H161M551 443H603M575 452H603" stroke="#739DC3" stroke-opacity=".4" stroke-width="2"/>
+  <g filter="url(#taxi-shadow)" transform="translate(351 265) rotate(-32)">
+    <rect x="-83" y="-66" width="16" height="43" rx="5" fill="#07172A"/>
+    <rect x="67" y="-66" width="16" height="43" rx="5" fill="#07172A"/>
+    <rect x="-83" y="58" width="16" height="43" rx="5" fill="#07172A"/>
+    <rect x="67" y="58" width="16" height="43" rx="5" fill="#07172A"/>
+    <path d="M-48-122H48Q70-116 73-89L78 94Q76 122 54 129H-54Q-76 122-78 94L-73-89Q-70-116-48-122Z" fill="url(#taxi-body)" stroke="#D2E8F8" stroke-opacity=".55" stroke-width="1.5"/>
+    <path d="M-49-74Q0-87 49-74L56-35H-56L-49-74Z" fill="url(#taxi-glass)" stroke="#719BBE" stroke-width="2"/>
+    <rect x="-54" y="-26" width="108" height="98" rx="20" fill="#9FC5E2"/>
+    <path d="M-45 82H45L51 105Q0 118-51 105L-45 82Z" fill="url(#taxi-glass)"/>
+    <path d="M-67-53L-63 67M67-53L63 67" stroke="#4F7FA6" stroke-width="2"/>
+    <path d="M-45-105H45" stroke="#F3F9FC" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-56-99L-57-87M56-99L57-87" stroke="#DDF5FF" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-58 111H-39M39 111H58" stroke="#4387B4" stroke-width="5" stroke-linecap="round"/>
+    <rect x="-26" y="7" width="52" height="25" rx="5" fill="#E6EEF3" stroke="#6B96B7" stroke-width="2"/>
+    <path d="M-15 19H15" stroke="#3E7AAA" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-58-24L-57 64M58-24L57 64" stroke="#D8EBF7" stroke-opacity=".65"/>
+  </g>
+  <circle cx="547" cy="184" r="27" fill="#153C63" stroke="#578CB5" stroke-opacity=".65"/>
+  <path d="M547 170V198M533 184H561" stroke="#A7D4F3" stroke-width="2"/>
+  <circle cx="201" cy="312" r="8" fill="#3092D3"/>
+  <circle cx="201" cy="312" r="18" stroke="#5BABDE" stroke-opacity=".25"/>
+</svg>

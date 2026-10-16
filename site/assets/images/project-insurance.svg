@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520" fill="none">
+  <title>보험 영업관리 시스템 프로젝트</title>
+  <desc>보호 방패와 연결된 업무 문서를 표현한 프로젝트 표지</desc>
+  <defs>
+    <linearGradient id="insurance-bg" x1="49" y1="0" x2="682" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#173C61"/><stop offset="1" stop-color="#0C2444"/></linearGradient>
+    <linearGradient id="insurance-paper" x1="300" y1="120" x2="493" y2="395" gradientUnits="userSpaceOnUse"><stop stop-color="#DBECF6"/><stop offset="1" stop-color="#86ADCC"/></linearGradient>
+    <linearGradient id="insurance-shield" x1="221" y1="203" x2="370" y2="371" gradientUnits="userSpaceOnUse"><stop stop-color="#57A1D4"/><stop offset="1" stop-color="#216396"/></linearGradient>
+    <linearGradient id="insurance-edge" x1="255" y1="183" x2="359" y2="365" gradientUnits="userSpaceOnUse"><stop stop-color="#A1D2EE"/><stop offset="1" stop-color="#4F8DBB"/></linearGradient>
+    <pattern id="insurance-grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M0 0H38V38" stroke="#7DAFD2" stroke-opacity=".075"/></pattern>
+    <radialGradient id="insurance-glow" cx="0" cy="0" r="1" gradientTransform="translate(384 247) rotate(90) scale(246 309)" gradientUnits="userSpaceOnUse"><stop stop-color="#71B6E1" stop-opacity=".16"/><stop offset="1" stop-color="#71B6E1" stop-opacity="0"/></radialGradient>
+    <filter id="insurance-shadow" x="-50%" y="-50%" width="200%" height="220%"><feDropShadow dx="0" dy="16" stdDeviation="17" flood-color="#001124" flood-opacity=".35"/></filter>
+  </defs>
+  <path fill="url(#insurance-bg)" d="M0 0H720V520H0z"/>
+  <path fill="url(#insurance-grid)" d="M0 0H720V520H0z"/>
+  <path fill="url(#insurance-glow)" d="M0 0H720V520H0z"/>
+  <path d="M114 161L359 22L604 161V359L359 500L114 359V161Z" stroke="#7FB1D4" stroke-opacity=".1"/>
+  <path d="M151 181L359 61L567 181V339L359 459L151 339V181Z" stroke="#7FB1D4" stroke-opacity=".09" stroke-dasharray="3 9"/>
+  <path d="M98 248H188L225 286M477 248H569L610 206M443 366L490 414H589M300 379L263 427H162" stroke="#65A2CF" stroke-opacity=".56" stroke-width="2"/>
+  <g fill="#89BBDD"><circle cx="98" cy="248" r="4"/><circle cx="610" cy="206" r="4"/><circle cx="589" cy="414" r="4"/><circle cx="162" cy="427" r="4"/></g>
+  <g stroke="#89BBDD" stroke-opacity=".23"><circle cx="98" cy="248" r="12"/><circle cx="610" cy="206" r="12"/><circle cx="589" cy="414" r="12"/></g>
+  <g transform="translate(392 254) rotate(12)" filter="url(#insurance-shadow)">
+    <rect x="-82" y="-125" width="178" height="247" rx="9" fill="#557FA3" stroke="#7FA9C9" stroke-opacity=".6"/>
+    <rect x="-97" y="-139" width="178" height="247" rx="9" fill="#8DB2CE" stroke="#B0D1E6" stroke-opacity=".6"/>
+    <path d="M-103-150H32L68-113V87Q68 96 59 96H-103Q-112 96-112 87V-141Q-112-150-103-150Z" fill="url(#insurance-paper)" stroke="#DEEFF8" stroke-opacity=".5"/>
+    <path d="M32-150V-121Q32-113 40-113H68" fill="#86AECC"/>
+    <path d="M32-150V-121Q32-113 40-113H68" stroke="#5E8CB0" stroke-opacity=".4"/>
+    <rect x="-85" y="-117" width="35" height="7" rx="3.5" fill="#376C96"/>
+    <path d="M-85-86H36M-85-72H11M-85-45H36M-85-31H27M-85 3H36M-85 17H36M-85 31H-10" stroke="#6795B6" stroke-width="4" stroke-linecap="round"/>
+    <rect x="-3" y="51" width="40" height="21" rx="4" stroke="#5989AD" stroke-width="2"/>
+    <path d="M6 61H28" stroke="#5989AD" stroke-width="2"/>
+  </g>
+  <g filter="url(#insurance-shadow)">
+    <path d="M281 185C304 205 332 212 362 216V283C362 331 334 363 281 389C228 363 200 331 200 283V216C230 212 258 205 281 185Z" fill="url(#insurance-shield)" stroke="url(#insurance-edge)" stroke-width="3"/>
+    <path d="M281 201C301 217 323 223 346 227V282C346 321 324 347 281 371C238 347 216 321 216 282V227C239 223 261 217 281 201Z" stroke="#A7D4ED" stroke-opacity=".45"/>
+    <path d="M281 201V371C324 347 346 321 346 282V227C323 223 301 217 281 201Z" fill="#A5D1ED" fill-opacity=".1"/>
+    <path d="M246 282L272 307L317 259" stroke="#D9EFFA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <circle cx="544" cy="128" r="25" fill="#244C71" stroke="#6395BB" stroke-opacity=".7"/>
+  <path d="M532 128L540 136L556 119" stroke="#A2CBE5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M104 84H152M104 93H130M582 467H627M603 476H627" stroke="#7BA9CC" stroke-opacity=".43" stroke-width="2"/>
+  <path d="M55 338L79 352L103 338M581 51L605 65L629 51" stroke="#6399C2" stroke-opacity=".23"/>
+</svg>
