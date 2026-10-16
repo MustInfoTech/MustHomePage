@@ -1,0 +1,100 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "file": "index.html"
+    },
+    {
+      "route": "/company/overview.do",
+      "file": "company/overview.html"
+    },
+    {
+      "route": "/company/values.do",
+      "file": "company/values.html"
+    },
+    {
+      "route": "/company/history.do",
+      "file": "company/history.html"
+    },
+    {
+      "route": "/company/organization.do",
+      "file": "company/organization.html"
+    },
+    {
+      "route": "/business/si.do",
+      "file": "business/si.html"
+    },
+    {
+      "route": "/business/sm.do",
+      "file": "business/sm.html"
+    },
+    {
+      "route": "/business/consulting.do",
+      "file": "business/consulting.html"
+    },
+    {
+      "route": "/sustainability/principles.do",
+      "file": "sustainability/principles.html"
+    },
+    {
+      "route": "/sustainability/ethics.do",
+      "file": "sustainability/ethics.html"
+    },
+    {
+      "route": "/newsroom/index.do",
+      "file": "newsroom/index.html"
+    },
+    {
+      "route": "/newsroom/insight.do",
+      "file": "newsroom/insight.html"
+    },
+    {
+      "route": "/newsroom/story.do",
+      "file": "newsroom/story.html"
+    },
+    {
+      "route": "/newsroom/sustainability.do",
+      "file": "newsroom/sustainability.html"
+    },
+    {
+      "route": "/careers/culture.do",
+      "file": "careers/culture.html"
+    },
+    {
+      "route": "/careers/recruit.do",
+      "file": "careers/recruit.html"
+    },
+    {
+      "route": "/contact.do",
+      "file": "contact.html"
+    },
+    {
+      "route": "/privacy.do",
+      "file": "privacy.html"
+    },
+    {
+      "route": "/sitemap.do",
+      "file": "sitemap.html"
+    }
+  ],
+  "assets": [
+    "assets/css/corporate.css",
+    "assets/css/home-motion.css",
+    "assets/css/profile.css",
+    "assets/css/subpages.css",
+    "assets/images/careers-growth-v2.png",
+    "assets/images/collaboration.jpg",
+    "assets/images/corporate-hero.jpg",
+    "assets/images/must-ci.png",
+    "assets/images/must-symbol.png",
+    "assets/images/project-delivery.svg",
+    "assets/images/project-insurance.svg",
+    "assets/images/project-taxi.svg",
+    "assets/images/research-technology-v2.png",
+    "assets/images/si-development-v2.png",
+    "assets/images/sm-operations-v2.png",
+    "assets/images/sustainability.jpg",
+    "assets/js/corporate.js",
+    "assets/js/home-motion.js"
+  ]
+}
